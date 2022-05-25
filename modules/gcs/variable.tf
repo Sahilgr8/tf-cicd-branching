@@ -163,7 +163,7 @@ variable "zonaresultados_folders" {
 
 variable "bucket_names" {
   type=list(string)
-  default = [ "sahilpawar1297","zonacruda-1297","zonaresultados-1297","zonasemicruda-1297","zonaconsumo-1297","zonacurada-1207","zonacruda-1298"]
+  default = [ "sahilpawar1298","zonacruda-1266","zonaresultados-1298","zonasemicruda-1298","zonaconsumo-1298","zonacurada-1208","zonacruda-1200"]
 #   default = [
 #   "03p-datalake2-gcs-zonacruda-drive-d01",
 # 	"03p-datalake2-gcs-zonacruda-davibox-d02",
