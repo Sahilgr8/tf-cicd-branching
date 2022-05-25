@@ -24,13 +24,13 @@
 
 module "gcs" {
   source = "../modules/gcs"
-  zonaconsumo_folders = var.zonaconsumo_folders
-  bucket_names = var.bucket_names
-  zonasemicruda_folders = var.zonasemicruda_folders
-  zonaresultados_folders = var.zonaresultados_folders
-  zonacurada_folders = var.zonacurada_folders
+  # zonaconsumo_folders = var.zonaconsumo_folders
+  # bucket_names = var.bucket_names
+  # zonasemicruda_folders = var.zonasemicruda_folders
+  # zonaresultados_folders = var.zonaresultados_folders
+  # zonacurada_folders = var.zonacurada_folders
   project_id = "logging-demo-345910"
-  location = var.region
-  labels = var.labels
+  # location = var.region
+  # labels = var.labels
 }
 
