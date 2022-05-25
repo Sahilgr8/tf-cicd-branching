@@ -29,7 +29,7 @@ module "gcs" {
   zonasemicruda_folders = var.zonasemicruda_folders
   zonaresultados_folders = var.zonaresultados_folders
   zonacurada_folders = var.zonacurada_folders
-  project_id = "q-gcp-6614-davivienda-22-03"
+  project_id = "logging-demo-345910"
   location = var.region
   labels = var.labels
 }
