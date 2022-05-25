@@ -37,7 +37,7 @@ variable "labels" {
 variable "zonasemicruda_folders" {
   type = set(string)
   default = ["ADMINISTRATIVA/",
-			"TESORERIA/",
+			"TESORERI/",
 			"SILOS/",
 			"DATOS_EXTERNOS/",
 			"REFERENCIALES/",
