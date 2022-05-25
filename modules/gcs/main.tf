@@ -27,7 +27,7 @@ resource "google_storage_bucket_object" "landing_folder" {
 }
 
 resource "google_storage_bucket_object" "indicted_folder" {
-  name = "indicted"
+  name = "indcted"
   for_each = local.zonacruda_buckets
   bucket  = each.key
   content = "folder_content"
