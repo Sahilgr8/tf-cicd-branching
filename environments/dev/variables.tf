@@ -3,10 +3,10 @@ variable "network_name" {
   default = "netwrok-b"
 }
 
-variable "service_account" {
-  type=string
-  default = "test-terraform@q-gcp-6614-davivienda-22-03.iam.gserviceaccount.com"
-}
+# variable "service_account" {
+#   type=string
+#   default = "test-terraform@q-gcp-6614-davivienda-22-03.iam.gserviceaccount.com"
+# }
 
 variable "zone" {
   type =string
