@@ -24,7 +24,7 @@ variable "uniform_bucket_level_access" {
 
 variable "force_destroy" {
   type = bool
-  default = false
+  default = true
 }
 
 variable "versioning_enabled" {
