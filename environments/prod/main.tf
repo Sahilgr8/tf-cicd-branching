@@ -23,7 +23,7 @@
 # }
 
 module "gcs" {
-  source = "../modules/gcs"
+  source = "../../modules/gcs"
   # zonaconsumo_folders = var.zonaconsumo_folders
   # bucket_names = var.bucket_names
   # zonasemicruda_folders = var.zonasemicruda_folders
