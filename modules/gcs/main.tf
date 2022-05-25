@@ -20,14 +20,14 @@ locals {
   zonaresultados_bucket=tolist([for i in range(length(var.bucket_names)):var.bucket_names[i] if(contains(split("-",var.bucket_names[i]),"zonaresultados"))])
 }
 resource "google_storage_bucket_object" "landing_folder" {
-  name = "landing"
+  name = "landing/"
   for_each = local.zonacruda_buckets
   bucket  = each.key
   content = "folder_content"
 }
 
 resource "google_storage_bucket_object" "indicted_folder" {
-  name = "indcted"
+  name = "indicted/"
   for_each = local.zonacruda_buckets
   bucket  = each.key
   content = "folder_content"
